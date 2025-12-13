@@ -1,0 +1,8 @@
+total = 0
+
+for number in range(1,11):
+    if number % 2 == 0:
+        total += number
+
+print("the sum of even numbers from 1 to 11 is:", total)
+
