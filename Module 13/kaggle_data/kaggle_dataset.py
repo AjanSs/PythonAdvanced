@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('file1.csv')
+df = pd.read_csv('../../Module14/avgIQpercountry.csv')
 print(df.info())
 
 first_rows = df.head()
